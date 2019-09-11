@@ -1,5 +1,6 @@
 #include "../base/logging.h"
 #include "mysqlthrd.h"
+#include <functional> // for bind
 
 CMysqlThrd::CMysqlThrd(void)
 {
