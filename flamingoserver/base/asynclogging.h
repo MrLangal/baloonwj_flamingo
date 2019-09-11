@@ -7,6 +7,8 @@
 #include <string.h>
 #include "countdownlatch.h"
 
+#include <functional> // for bind
+
 using namespace std;
 
 const int kSmallBuffer = 4000;
